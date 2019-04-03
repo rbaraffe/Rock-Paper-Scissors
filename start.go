@@ -8,6 +8,13 @@ import (
 var  playerNamePointCounter = 0
 var  computerPointCounter = 0
 
+type Rule int
+const (
+ Rock Rule = 1 + iota
+ Paper
+ Scissors
+)
+
 
 func main() {
     fmt.Println("Welcome to Rock Paper Scissors in Golang World")
