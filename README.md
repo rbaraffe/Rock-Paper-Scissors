@@ -10,13 +10,13 @@ Simple game in command line. Options can be 0 : Rock, 1 : Paper, 2 : Scissors.
 
 ## Installation
 
-Clone the repository
+Clone the repository and run
 
 ```go
 go build
 ```
 
-Run the following command to install it:
+Then, run the .exe
 
 ```console
 ./main
